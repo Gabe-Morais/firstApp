@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+ion-content{
+    background: linear-gradient(to left, #3d002e, #410427);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+ion-button{
+    padding: 5px;
+}
+
+ion-button:hover{
+    transform: scale(1.5);
+    transition: transform 20s;
+    width: 40%;
+    transform: rotate(calc(360 * 100deg));
+    max-width: 200px;
+}
+
+@keyframes loko {
+    0%{
+        transform: scale(.1);
+    }
+    50%{
+        transform: scale(2);
+    }
+    100%{
+        transform: scale(.1);
+    }
+}
+
+
