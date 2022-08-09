@@ -9,9 +9,30 @@
 <ion-content [fullscreen]="true">
   <ion-header collapse="condense">
     <ion-toolbar>
-      <ion-title size="large">Tab 2</ion-title>
     </ion-toolbar>
   </ion-header>
+  <ion-card class="">
+    <ion-card-header>
+      <ion-card-title class="calc-title">Calculadora</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
 
-  <app-explore-container name="Tab 2 page"></app-explore-container>
+<form action="">
+      <ion-item>
+      <ion-label position="fixed">Valor 1</ion-label>
+        <ion-input></ion-input>
+      </ion-item>
+
+      <ion-item>
+        <ion-label position="fixed">Valor 2</ion-label>
+        <ion-input ></ion-input>
+      </ion-item>
+</form>
+
+      <ion-button expand="block" color="dark" (click)="calcular(10,10)">Calcular</ion-button>
+
+
+
+    </ion-card-content>
+  </ion-card>
 </ion-content>

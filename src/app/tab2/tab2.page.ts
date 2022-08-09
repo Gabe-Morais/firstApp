@@ -9,4 +9,10 @@ export class Tab2Page {
 
   constructor() {}
 
+   calcular(valor1:number, valor2:number) {
+        console.log(valor1 + valor2);
+
+  }
+
 }
+
