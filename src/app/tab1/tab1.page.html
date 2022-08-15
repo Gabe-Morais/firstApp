@@ -1,58 +1,53 @@
 <ion-header [translucent]="true">
-  <ion-toolbar>
+  <ion-toolbar color="dark">
     <ion-title>
-      Componentes
+      Tab 1
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <!-- Default -->
-  <ion-button>Default</ion-button>
+<ion-content [fullscreen]="true" color="dark">
+  <!-- Default Searchbar -->
+  <ion-searchbar color="danger" placeholder="Buscar"></ion-searchbar>
 
-  <!-- Anchor -->
-  <ion-button href="#">Anchor</ion-button>
+  <!-- List of Text Items -->
+  <ion-list>
+    <ion-item color="dark">
+      <ion-avatar>
+        <img src="https://upload.wikimedia.org/wikipedia/pt/4/43/Pok%C3%A9mon_Yellow_cover.png">
+      </ion-avatar>
+      <ion-label>Pokémon Yellow</ion-label>
+    </ion-item>
 
-  <!-- Colors -->
-  <ion-button color="primary">Primary</ion-button>
-  <ion-button color="secondary">Secondary</ion-button>
-  <ion-button color="tertiary">Tertiary</ion-button>
-  <ion-button color="success">Success</ion-button>
-  <ion-button color="warning">Warning</ion-button>
-  <ion-button color="danger">Danger</ion-button>
-  <ion-button color="light">Light</ion-button>
-  <ion-button color="medium">Medium</ion-button>
-  <ion-button color="dark">Dark</ion-button>
+    <ion-item color="dark">
+      <ion-label>Mega Man X</ion-label>
+      <ion-thumbnail>
+        <img src="https://i.pinimg.com/originals/b0/64/20/b06420f785d176b7b51422d9a1819484.jpg">
+      </ion-thumbnail>
+    </ion-item>
 
-  <!-- Expand -->
-  <ion-button expand="full">Full Button</ion-button>
-  <ion-button expand="block">Block Button</ion-button>
+    <ion-item color="dark">
+      <ion-avatar>
+        <img src="https://i.pinimg.com/originals/86/11/2b/86112b7568d292c73af477832f8d44a1.png">
+      </ion-avatar>
+      <ion-label>The Legend of Zelda</ion-label>
+    </ion-item>
 
-  <!-- Round -->
-  <ion-button shape="round">Round Button</ion-button>
+    <ion-item color="dark">
 
-  <!-- Fill -->
-  <ion-button expand="full" fill="outline">Outline + Full</ion-button>
-  <ion-button expand="block" fill="outline">Outline + Block</ion-button>
-  <ion-button shape="round" fill="outline">Outline + Round</ion-button>
+      <ion-label>Pac-Man</ion-label>
+      <ion-thumbnail >
+        <img src="https://pbs.twimg.com/media/Dsdz-Y3VYAAtB_m.jpg">
+      </ion-thumbnail>
+    </ion-item>
 
-  <!-- Icons -->
-  <ion-button>
-    <ion-icon slot="start" name="star"></ion-icon>
-    Left Icon
-  </ion-button>
 
-  <ion-button>
-    Right Icon
-    <ion-icon slot="end" name="star"></ion-icon>
-  </ion-button>
+    <ion-item color="dark">
+      <ion-avatar>
+        <img src="https://upload.wikimedia.org/wikipedia/pt/0/06/Super-Mario-World.jpg">
+      </ion-avatar>
+      <ion-label>Super Mario World</ion-label>
+    </ion-item>
+  </ion-list>
 
-  <ion-button>
-    <ion-icon slot="icon-only" name="star"></ion-icon>
-  </ion-button>
-
-  <!-- Sizes -->
-  <ion-button size="large">Large</ion-button>
-  <ion-button>Default</ion-button>
-  <ion-button size="small">Small</ion-button>
 </ion-content>

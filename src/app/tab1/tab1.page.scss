@@ -4,14 +4,6 @@
     border: 0;
 }
 
-ion-content{
-    background: linear-gradient(to left, #3d002e, #410427);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-
 ion-button{
     padding: 5px;
 }
@@ -21,5 +13,7 @@ ion-button:hover{
     transition: transform 300ms;
     //transform: rotate(calc(360 * 100deg));
 }
-
-
+    
+ion-avatar{
+    margin-right: 10px;
+}
