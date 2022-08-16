@@ -17,19 +17,18 @@
     </ion-card-header>
     <ion-card-content>
 
-<form action="">
       <ion-item>
-      <ion-label position="fixed">Valor 1</ion-label>
-        <ion-input></ion-input>
+      <ion-label position="fixed" >Valor 1</ion-label>
+        <ion-input [(ngModel)]="valor1"></ion-input>
       </ion-item>
 
       <ion-item>
         <ion-label position="fixed">Valor 2</ion-label>
-        <ion-input ></ion-input>
+        <ion-input [(ngModel)]="valor2" ></ion-input>
       </ion-item>
-</form>
 
-      <ion-button expand="block" color="dark" (click)="calcular(10,10)">Calcular</ion-button>
+      <ion-button expand="block" color="dark" (click)="calcular()">Calcular</ion-button>
+      <ion-label>{{result}}</ion-label>
 
 
 

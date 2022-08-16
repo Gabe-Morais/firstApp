@@ -6,11 +6,15 @@ import { Component } from '@angular/core';
   styleUrls: ['tab2.page.scss']
 })
 export class Tab2Page {
+  public valor1: string;
+  public valor2: string;
+  public result: number;
 
-  constructor() {}
+  constructor() { }
 
-   calcular(valor1:number, valor2:number) {
-        console.log(valor1 + valor2);
+  calcular() {
+    this.result = (parseFloat(this.valor1) + parseFloat(this.valor2));
+    console.log(this.result)
 
   }
 
