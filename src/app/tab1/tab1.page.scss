@@ -4,20 +4,6 @@
     border: 0;
 }
 
-ion-button{
-    padding: 5px;
-}
-
-ion-button:hover{
-    transform: scale(1.2);
-    transition: transform 300ms;
-    //transform: rotate(calc(360 * 100deg));
-}
-    
-ion-avatar{
-    margin-right: 10px;
-}
-
 ion-thumbnail{
     padding-right: 10px;
 }
@@ -27,11 +13,22 @@ ion-thumbnail{
 
 }
 
-ion-title{
-    text-align: center;
-}
 
 ion-list-header{
     text-align: center;
     font-size: 20px;
+}
+
+ion-badge{
+    padding: 5px;
+}
+
+ion-avatar{
+    transform: scale(0.6);
+    background-color: whitesmoke;
+    border: 2px solid whitesmoke;
+}
+
+ion-title{
+    margin-left: 15px;
 }

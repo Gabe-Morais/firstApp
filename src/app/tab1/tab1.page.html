@@ -1,19 +1,22 @@
 <ion-header [translucent]="true">
   <ion-toolbar color="dark">
-    <ion-title>
+    <ion-title slot="start">
       Cardápio
     </ion-title>
+    <ion-avatar slot="end">
+      <img src="../../assets/icon/avatar.png">
+    </ion-avatar>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <!-- Default Searchbar -->
+
   <ion-searchbar color="danger" placeholder="Buscar"></ion-searchbar>
-  <!-- Default List Header -->
+
   <ion-list-header>
     <ion-label>Pizzas</ion-label>
   </ion-list-header>
-  <!-- List of Text Items -->
+
   <ion-list>
     <ion-item>
       <ion-thumbnail>
