@@ -1,53 +1,61 @@
 <ion-header [translucent]="true">
   <ion-toolbar color="dark">
     <ion-title>
-      Tab 1
+      Cardápio
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true" color="dark">
+<ion-content [fullscreen]="true">
   <!-- Default Searchbar -->
   <ion-searchbar color="danger" placeholder="Buscar"></ion-searchbar>
-
+  <!-- Default List Header -->
+  <ion-list-header>
+    <ion-label>Pizzas</ion-label>
+  </ion-list-header>
   <!-- List of Text Items -->
   <ion-list>
-    <ion-item color="dark">
-      <ion-avatar>
-        <img src="https://upload.wikimedia.org/wikipedia/pt/4/43/Pok%C3%A9mon_Yellow_cover.png">
-      </ion-avatar>
-      <ion-label>Pokémon Yellow</ion-label>
-    </ion-item>
-
-    <ion-item color="dark">
-      <ion-label>Mega Man X</ion-label>
+    <ion-item>
       <ion-thumbnail>
-        <img src="https://i.pinimg.com/originals/b0/64/20/b06420f785d176b7b51422d9a1819484.jpg">
+        <img src="https://pizzariadesucesso.com/wp-content/uploads/2018/05/foto_pizza_baiana_600x402.jpg">
       </ion-thumbnail>
+      <ion-label>Bahiana</ion-label>
+      <ion-badge color="success">R$35,00</ion-badge>
+      <ion-badge></ion-badge>
     </ion-item>
 
-    <ion-item color="dark">
-      <ion-avatar>
-        <img src="https://i.pinimg.com/originals/86/11/2b/86112b7568d292c73af477832f8d44a1.png">
-      </ion-avatar>
-      <ion-label>The Legend of Zelda</ion-label>
-    </ion-item>
-
-    <ion-item color="dark">
-
-      <ion-label>Pac-Man</ion-label>
-      <ion-thumbnail >
-        <img src="https://pbs.twimg.com/media/Dsdz-Y3VYAAtB_m.jpg">
+    <ion-item>
+      <ion-thumbnail>
+        <img src="https://img.estadao.com.br/thumbs/640/resources/jpg/3/7/1481756732973.jpg">
       </ion-thumbnail>
+      <ion-label>Margherita</ion-label>
+      <ion-badge color="success">R$40,00</ion-badge>
     </ion-item>
 
+    <ion-item>
+      <ion-thumbnail>
+        <img
+          src="https://st4.depositphotos.com/1672917/20871/i/600/depositphotos_208718092-stock-photo-portuguese-pizza-onion-peppers-pepperoni.jpg">
+      </ion-thumbnail>
+      <ion-label>Portuguesa</ion-label>
+      <ion-badge color="success">R$35,00</ion-badge>
+    </ion-item>
 
-    <ion-item color="dark">
-      <ion-avatar>
-        <img src="https://upload.wikimedia.org/wikipedia/pt/0/06/Super-Mario-World.jpg">
-      </ion-avatar>
-      <ion-label>Super Mario World</ion-label>
+    <ion-item>
+      <ion-thumbnail>
+        <img
+          src="https://conteudo.imguol.com.br/f5/2017/07/07/pizza-paulistana-restaurante-margherita-1499457029706_v2_900x506.jpg.webp">
+      </ion-thumbnail>
+      <ion-label>Paulistana</ion-label>
+      <ion-badge color="success">R$32,00</ion-badge>
+    </ion-item>
+
+    <ion-item>
+      <ion-thumbnail>
+        <img src="https://images.rappi.com.br/products/2099675279-1619614330392.jpg">
+      </ion-thumbnail>
+      <ion-label>Moda da Casa</ion-label>
+      <ion-badge color="success">R$40,00</ion-badge>
     </ion-item>
   </ion-list>
-
 </ion-content>
