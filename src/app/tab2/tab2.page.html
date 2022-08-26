@@ -1,37 +1,107 @@
 <ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Tab 2
+  <ion-toolbar color="dark">
+    <ion-title slot="start">
+      Cardápio
     </ion-title>
+    <ion-avatar slot="end">
+      <img src="../../assets/icon/avatar.png">
+    </ion-avatar>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
+  <ion-searchbar color="danger" placeholder="Buscar"></ion-searchbar>
   <ion-header collapse="condense">
-    <ion-toolbar>
-    </ion-toolbar>
+    <ion-searchbar color="danger" placeholder="Buscar"></ion-searchbar>
+
+    <ion-list-header>
+      <ion-label>Pizzas</ion-label>
+    </ion-list-header>
   </ion-header>
-  <ion-card class="">
+
+  <!-- Card 1 -->
+  <ion-card>
     <ion-card-header>
-      <ion-card-title class="calc-title">Calculadora</ion-card-title>
+
     </ion-card-header>
-    <ion-card-content>
 
-      <ion-item>
-      <ion-label position="fixed" >Valor 1</ion-label>
-        <ion-input [(ngModel)]="valor1"></ion-input>
-      </ion-item>
-
-      <ion-item>
-        <ion-label position="fixed">Valor 2</ion-label>
-        <ion-input [(ngModel)]="valor2" ></ion-input>
-      </ion-item>
-
-      <ion-button expand="block" color="dark" (click)="calcular()">Calcular</ion-button>
-      <ion-label>{{result}}</ion-label>
-
-
-
+    <ion-card-content class="teste">
+      <img src="https://mktnova.com/mktnovacommerce/wp-content/uploads/2015/10/cocacolalata1.png"
+        alt="Coca-Cola">
+      <ion-card-title>Coca-Cola Lata 350ml
+      </ion-card-title>
+      <ion-badge color="success">R$5,00</ion-badge>
     </ion-card-content>
+
   </ion-card>
+
+  <!-- Card 2 -->
+  
+  <ion-card>
+    <ion-card-header>
+
+    </ion-card-header>
+
+    <ion-card-content class="teste">
+      <img
+        src="https://www.picanhacia.com.br/wp-content/uploads/2017/03/FANTA-UVA-LT-350ML-6UN-510x600.png"
+        alt="Fanta-Uva">
+      <ion-card-title>Fanta Uva Lata 350ml
+      </ion-card-title>
+      <ion-badge color="success">R$5,00</ion-badge>
+    </ion-card-content>
+
+  </ion-card>
+
+  <!-- Card 3 -->
+  <ion-card>
+    <ion-card-header>
+
+    </ion-card-header>
+
+    <ion-card-content class="teste">
+      <img
+        src="https://mktnova.com/mktnovacommerce/wp-content/uploads/2015/10/guaranaantarcticasitebebidas.png"
+        alt="Para-Tudo">
+      <ion-card-title>Guaraná Antartica Lata 350ml-0
+      </ion-card-title>
+      <ion-badge color="success">R$5,00</ion-badge>
+    </ion-card-content>
+
+  </ion-card>
+
+  <!-- Card 4 -->
+  <ion-card>
+    <ion-card-header>
+
+    </ion-card-header>
+
+    <ion-card-content class="teste">
+      <img
+        src="https://images.tcdn.com.br/img/img_prod/957808/conhaque_presidente_900ml_1603_1_652e4baae6f346ac2c6d6eb5042cb05d.png"
+        alt="Presidente">
+      <ion-card-title>Presidente 900ml
+      </ion-card-title>
+      <ion-badge color="success">R$15,00</ion-badge>
+    </ion-card-content>
+
+  </ion-card>
+
+  <!-- Card 5 -->
+  <ion-card>
+    <ion-card-header>
+
+    </ion-card-header>
+
+    <ion-card-content class="teste">
+      <img
+        src="https://bebidasfamosas.vtexassets.com/arquivos/ids/157638/paratudo-raizes-amargas-900ml.jpg?v=637721880261770000"
+        alt="Para-Tudo">
+      <ion-card-title>Para Tudo 900ml
+      </ion-card-title>
+      <ion-badge color="success">R$15,00</ion-badge>
+    </ion-card-content>
+
+  </ion-card>
+
 </ion-content>

@@ -4,6 +4,31 @@
     border: 0;
 }
 
-.calc-title{
-    text-align: center;
+ion-card{
+    margin: 15px;
+}
+
+ion-badge{
+    margin: 3px;
+    padding: 5px;
+}
+
+ion-avatar{
+    transform: scale(0.6);
+    background-color: whitesmoke;
+    border: 2px solid whitesmoke;
+}
+
+ion-title{
+    margin-left: 15px;
+}
+
+ion-card-title{
+    font-size: 18px;
+}
+
+.teste{
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
 }
