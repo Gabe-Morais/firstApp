@@ -3,6 +3,23 @@
 
 /** Ionic CSS Variables **/
 :root {
+
+    /** lilas **/
+  --ion-color-lilas: #887bff;
+	--ion-color-lilas-rgb: 136,123,255;
+	--ion-color-lilas-contrast: #000000;
+	--ion-color-lilas-contrast-rgb: 0,0,0;
+	--ion-color-lilas-shade: #786ce0;
+	--ion-color-lilas-tint: #9488ff;
+
+    /** badge **/
+  --ion-color-badge: #ffe877;
+	--ion-color-badge-rgb: 255,232,119;
+	--ion-color-badge-contrast: #000000;
+	--ion-color-badge-contrast-rgb: 0,0,0;
+	--ion-color-badge-shade: #e0cc69;
+	--ion-color-badge-tint: #ffea85;
+
   /** primary **/
   --ion-color-primary: #3880ff;
   --ion-color-primary-rgb: 56, 128, 255;
@@ -233,4 +250,13 @@
 
     --ion-card-background: #1e1e1e;
   }
+}
+
+.ion-color-badge {
+	--ion-color-base: var(--ion-color-badge);
+	--ion-color-base-rgb: var(--ion-color-badge-rgb);
+	--ion-color-contrast: var(--ion-color-badge-contrast);
+	--ion-color-contrast-rgb: var(--ion-color-badge-contrast-rgb);
+	--ion-color-shade: var(--ion-color-badge-shade);
+	--ion-color-tint: var(--ion-color-badge-tint);
 }

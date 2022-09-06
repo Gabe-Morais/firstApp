@@ -5,7 +5,9 @@
 }
 
 ion-thumbnail{
-    padding-right: 10px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    --border-radius: 5px;
 }
 
 .espaco{
@@ -21,6 +23,7 @@ ion-list-header{
 
 ion-badge{
     padding: 5px;
+    border-radius: 3px;
 }
 
 ion-avatar{
@@ -36,3 +39,45 @@ ion-title{
 ion-list{
     margin-top: 5px;
 }
+
+ion-item {
+
+    --padding-end: 0px;
+    --inner-padding-end: 0px;
+    --padding-start: 0px;
+    --inner-padding-start: 0px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    // here other custom CSS from documentation
+
+  }
+
+  ion-label{
+      margin-left: 5px;
+  }
+
+  .pizza-name{
+    font-size: 20px;
+  }
+
+  .pizza-desc{
+      font-size: 12px;
+  }
+
+  .line{
+    width: 100%;
+    height: 1px;
+    background-color: rgb(221, 221, 221);
+
+  }
+
+  ion-list-header {
+      display: flex;
+      flex-direction: column;
+
+      ion-label{
+          text-align: center;
+          margin-top: 10px;
+      }
+  }
